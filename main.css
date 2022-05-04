@@ -50,6 +50,11 @@ section {
   padding: 5em 2em;
 }
 
+.coffee-image {
+  width: 100%;
+  height: auto;
+}
+
 .hero {
   text-align: center;
   color: var(--text-color);
@@ -61,7 +66,7 @@ section {
 
 .hero .mission-statement {
   text-align: center;
-  width: 65%;
+  width: 50%;
   margin: 20%;
 }
 
