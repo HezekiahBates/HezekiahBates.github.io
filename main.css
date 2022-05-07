@@ -60,6 +60,7 @@ section {
 .hero {
   color: var(--text-color);
   margin-top: 0;
+  font-size: 1.2em;
 }
 
 .hero .left-col {
