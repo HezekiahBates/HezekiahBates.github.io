@@ -73,6 +73,7 @@ section {
     
     .weekly {
         width: 33%;
+        height: 50%;
         float: right;
     }
 
@@ -85,7 +86,7 @@ section {
     background: var(--secondary-color);
     color: white;
     li {
-        color: azure;
+        color: white;
         background: rgb(188, 124, 60);
         text-align: center;
         padding: 2em 1em;
@@ -100,6 +101,7 @@ section {
     }
     .donation-suggestions {
         width: 33%;
+        height: 50%;
         float: left;
     }
 
