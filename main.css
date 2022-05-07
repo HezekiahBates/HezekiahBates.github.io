@@ -142,6 +142,10 @@ section {
   margin-top: 4em;
 }
 
+.testimonials h2 {
+  text-align: center;
+}
+
 .testimonials li {
   background: #bc7c3c;
   text-align: center;
@@ -378,6 +382,9 @@ nav li a:hover {
     display: flex;
     background: var(--primary-color);
     margin-top: 4em;
+  }
+  .testimonials ul h2 {
+    text-align: center;
   }
   .testimonials ul li {
     background: #bc7c3c;
