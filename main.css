@@ -9,10 +9,10 @@ body {
   margin: 0;
   font-family: 'Times New Roman', Times, serif;
   color: var(--text-color);
+  max-width: 100%;
 }
 
 .navbar {
-  background-image: url("images/coffee.svg");
   padding: 1em;
   background-color: #dac286;
 }
@@ -50,30 +50,24 @@ section {
   padding: 5em 2em;
 }
 
-.coffee-image {
-  width: 100%;
-  height: auto;
-}
-
 .hero {
-  text-align: center;
   color: var(--text-color);
+  width: 100;
+  margin-top: 0;
 }
 
-.hero span {
-  color: var(--primary-color);
-}
-
-.hero .mission-statement {
-  text-align: center;
-  width: 50%;
-  margin: 20%;
-}
-
-.hero .container {
+.hero .left-col {
   width: 100%;
-  place-content: space-between;
-  position: relative;
+  text-align: center;
+}
+
+.hero .left-col .mission-statement {
+  text-align: center;
+  width: 100%;
+}
+
+.hero .coffee-cup {
+  width: 50%;
 }
 
 .weekly-items {
@@ -83,61 +77,21 @@ section {
 }
 
 .weekly-items .left-col {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 50%;
-  place-content: space-between;
-  position: relative;
+  float: left;
 }
 
 .weekly-items .weekly {
-  width: 200%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: auto;
-}
-
-h1 {
-  font-size: 2.5em;
-  line-height: 1.3em;
-  margin-top: .2em;
-}
-
-ul.foods {
-  margin: 0;
-  padding-left: .1em;
-  display: -ms-grid;
-  display: grid;
-}
-
-ul.foods li {
-  font-size: 1em;
-  margin-bottom: 1em;
-  margin-left: 2em;
-  position: relative;
-}
-
-.coffee-image {
-  opacity: .6;
-  position: absolute;
   width: 50%;
-  height: auto;
-  left: 14em;
+  float: right;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
-.body {
+.donation {
   background: var(--secondary-color);
   color: white;
 }
 
-.body li {
+.donation li {
   color: azure;
   background: #bc7c3c;
   text-align: center;
@@ -147,16 +101,43 @@ a {
   border-radius: 1em;
 }
 
-h2 {
-  font-size: 2em;
-  line-height: 1em;
-  margin-top: .1em;
+.donation .cashapp {
+  width: 50%;
+  float: right;
 }
 
-h4 {
-  font-size: 1.5em;
-  line-height: .7em;
-  margin-top: .05em;
+.donation .donation-suggestions {
+  width: 50%;
+  float: left;
+}
+
+.donation ul.foods {
+  margin: 0;
+  padding-left: .1em;
+  display: -ms-grid;
+  display: grid;
+}
+
+.donation ul.foods li {
+  font-size: 1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  position: relative;
+}
+
+.volunteer {
+  background: var(--secondary-color);
+  color: white;
+}
+
+.volunteer li {
+  color: white;
+  background: #bc7c3c;
+  text-align: center;
+  padding: 2em 1em;
+  width: 80%;
+  margin: 0 auto 1em auto;
+  border-radius: 1em;
 }
 
 .ending {
@@ -169,6 +150,37 @@ h4 {
 
 .ending a {
   color: var(--text-color);
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.3em;
+  margin-top: .2em;
+}
+
+.container {
+  overflow: hidden;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1em;
+  margin-top: .1em;
+}
+
+h4 {
+  font-size: 1.5em;
+  line-height: .7em;
+  margin-top: .05em;
 }
 
 nav.menu-btn {
