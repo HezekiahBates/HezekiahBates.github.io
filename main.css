@@ -16,6 +16,21 @@ body {
   background-color: #dac286;
 }
 
+.navbar .mascot {
+  width: 40px;
+  height: 40px;
+}
+
+.navbar .left {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.navbar .left .logo {
+  vertical-align: bottom;
+}
+
 .navbar .logo {
   text-decoration: none;
   font-weight: bold;
@@ -24,10 +39,6 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1.2em;
-}
-
-.navbar .logo span {
-  color: var();
 }
 
 .navbar nav {
@@ -243,6 +254,14 @@ nav li a:hover {
 }
 
 @media only screen and (min-width: 400px) {
+  .navbar .container .left {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .navbar .container .left .logo {
+    vertical-align: bottom;
+  }
   .mobile-menu, .mobile-menu-exit {
     display: none;
   }
@@ -297,6 +316,14 @@ nav li a:hover {
     width: -moz-fit-content;
     width: fit-content;
     margin: 0 auto;
+  }
+  .navbar .left {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .navbar .left .logo {
+    vertical-align: bottom;
   }
   section {
     padding: 10em 4em;
