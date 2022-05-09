@@ -156,6 +156,7 @@ section {
 
 .testimonials h2 {
   text-align: center;
+  margin-bottom: 4em;
 }
 
 .testimonials li {
@@ -163,7 +164,7 @@ section {
   text-align: center;
   padding: 2em 1em;
   width: 80%;
-  margin: 5em auto 5em auto;
+  margin: 0em auto 5em auto;
   border-radius: 1em;
 }
 
