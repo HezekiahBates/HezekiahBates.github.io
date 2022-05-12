@@ -415,6 +415,17 @@ nav li a:hover {
     margin-top: 4em;
     margin-bottom: 4em;
   }
+  .testimonials ul .row1 .row2 {
+    list-style: none;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33%;
+            flex: 0 0 33%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
   .testimonials ul h2 {
     text-align: center;
   }
