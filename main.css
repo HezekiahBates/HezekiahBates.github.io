@@ -417,6 +417,8 @@ nav li a:hover {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 33%;
             flex: 0 0 33%;
+    margin-top: 2em;
+    margin-bottom: 2em;
   }
 }
 /*# sourceMappingURL=main.css.map */
