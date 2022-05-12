@@ -419,6 +419,7 @@ nav li a:hover {
     text-align: center;
   }
   .testimonials ul li {
+    list-style: none;
     -ms-flex-preferred-size: 33%;
         flex-basis: 33%;
     background: #bc7c3c;
