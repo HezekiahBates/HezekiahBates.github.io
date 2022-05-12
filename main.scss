@@ -397,7 +397,7 @@ nav {
         text-align: center;
     }
     li {
-        flex: 0 0 33%;
+        flex-basis: 33%;
         background:rgb(188, 124, 60);
         text-align: center;
         padding: 2em 1em;
