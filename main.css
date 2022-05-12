@@ -409,6 +409,8 @@ nav li a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     background: var(--primary-color);
     margin-top: 4em;
     margin-bottom: 4em;
@@ -417,6 +419,9 @@ nav li a:hover {
     text-align: center;
   }
   .testimonials ul li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33%;
+            flex: 0 0 33%;
     background: #bc7c3c;
     text-align: center;
     padding: 2em 1em;
