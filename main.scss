@@ -112,9 +112,10 @@ section {
                 position: relative;
             }
         }
-    .cashapp {
-        display: none;
-    }
+        
+        img {
+            display: none;
+        }
 }
 
 .volunteer {
@@ -348,9 +349,6 @@ nav {
     }
 
     .donation {
-    
-        display: flex;
-        justify-content: space-between;
         background: var(--secondary-color);
         color: white;
         li {
@@ -362,16 +360,16 @@ nav {
             border-radius: 1em;   
             width: auto;
         }
-    
-        .cashapp {
-            height: 50%;
-            width: 50%;
-            display: block;
-            position: right;
-            margin-bottom: 2em;
-            padding: 0 0 0 2em;
+
+        
+        img {
+            display: flex;
+            height: 45%;
+            width: 55%;
+            position: relative;
+            margin: 2em 2em 2em 4em;
         }
-    
+
         ul.foods {
             margin: 0;
             padding-left: .1em;

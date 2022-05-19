@@ -125,7 +125,7 @@ section {
   position: relative;
 }
 
-.donation .cashapp {
+.donation img {
   display: none;
 }
 
@@ -367,12 +367,6 @@ nav li a:hover {
             justify-content: space-between;
   }
   .donation {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     background: var(--secondary-color);
     color: white;
   }
@@ -385,13 +379,14 @@ nav li a:hover {
     border-radius: 1em;
     width: auto;
   }
-  .donation .cashapp {
-    height: 50%;
-    width: 50%;
-    display: block;
-    position: right;
-    margin-bottom: 2em;
-    padding: 0 0 0 2em;
+  .donation img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 45%;
+    width: 55%;
+    position: relative;
+    margin: 2em 2em 2em 4em;
   }
   .donation ul.foods {
     margin: 0;
